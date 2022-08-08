@@ -1,0 +1,166 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.hLogo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.s1para {
+  font-size: 24px;
+  color: #e5e7eb;
+  margin-top: 0;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  padding: 8px;
+  border-color: white;
+  border-radius: 10px;
+}
+.s1title {
+  font-weight: 900;
+  font-size: 48px;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.link {
+  margin-right: 20px;
+}
+
+.sect {
+  min-height: 22.5%;
+  width: 100%;
+}
+
+.s1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: #1f2937;
+  gap: 8px;
+}
+
+.s1h1 {
+  height: 250px;
+  width: 400px;
+  margin-left: 15%;
+}
+
+.s1imgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 400px;
+  margin-right: 15%;
+}
+
+.s1img {
+  height: 250px;
+  width: 400px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 7%;
+  width: 100%;
+  background-color: #1f2937;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 7%;
+  width: 100%;
+  background-color: #1f2937;
+  color: white;
+}
+
+.s2h1 {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bcontainer .s2img {
+  width: 200px;
+  height: 200px;
+}
+
+.s2 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.s3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e7eb;
+}
+
+.s3container {
+  display: flex;
+  flex-direction: column;
+}
+
+.s3info {
+  font-size: 24px;
+  font-style: italic;
+}
+
+.s3name {
+  margin-left: auto;
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.s4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.s4container {
+  background-color: #3882f6;
+  width: 500px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.s4text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
